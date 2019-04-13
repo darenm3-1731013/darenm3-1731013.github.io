@@ -1,7 +1,32 @@
 #p1{
+  border-style: dotted;
   font-family: "Times New Roman";
 }
 #p2{
+  border-style: solid;
+  border-radius: 10px;
   font-family: "Arial";
   font-style: italic;
+}
+.im{
+  height: 50px;
+  width: 50px;
+
+}
+.im2{
+  float: left;
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
